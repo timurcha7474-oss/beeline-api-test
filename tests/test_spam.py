@@ -12,7 +12,7 @@ def test_send_spam():
         "comment": "Реклама",
         "ctnA": "+79377654321",
         "ctnB": "9371234567",
-        "services": []
+        "services":  []
     }
     response = send_spam(data)
     assert response.status_code == 200
